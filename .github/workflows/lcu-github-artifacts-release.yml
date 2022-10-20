@@ -14,7 +14,7 @@ env:
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: pip install -r requirements.txt
-  BuildCommand: python main.py
+  BuildCommand: python send.py
   Output: ./
 
 jobs:
